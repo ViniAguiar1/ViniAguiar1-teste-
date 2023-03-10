@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: darkgray;
+}
+
+.header{
+    display: flex;
+    padding: 10px 25px;
+    background-color: black;
+    justify-content: space-between;
+    align-items: center;
+}
+.sigla-va{
+    width: 80px;
+}
+.logo-black{
+    width: 100px;
+}
+.buttons{
+    display: flex;
+    gap: 10px;
+}
+.buttonHeader{
+    background-color: transparent;
+    padding: 10px 15px;
+    color: white;
+    border-radius: 10px;
+    border-color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.buttonHeader:hover{
+    border-color: #ff0044;
+}
+.img-eu{
+    padding: 25px;
+    display: flex;
+    width: 250px;
+    
+}
